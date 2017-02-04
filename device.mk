@@ -26,9 +26,9 @@ include $(CM_PATH)/common/ant.mk
 include $(CM_PATH)/common/audio.mk
 include $(CM_PATH)/common/bluetooth.mk
 include $(CM_PATH)/common/bluetooth-le.mk
-include $(CM_PATH)/common/consumerir.mk
+#include $(CM_PATH)/common/consumerir.mk
 #include $(CM_PATH)/common/fingerprint.mk
-#include $(CM_PATH)/common/fm.mk
+include $(CM_PATH)/common/fm.mk
 include $(CM_PATH)/common/gello.mk
 include $(CM_PATH)/common/gps.mk
 include $(CM_PATH)/common/lights.mk
