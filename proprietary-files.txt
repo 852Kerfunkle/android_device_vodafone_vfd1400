@@ -1256,7 +1256,7 @@ vendor/lib/libthermalioctl.so
 # Time services
 -app/TimeService/TimeService.apk
 bin/time_daemon
-vendor/lib/libtime_genoff.so
+-vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 
 # Touchscreen
@@ -1317,3 +1317,6 @@ lib/hw/lights.msm8937.so
 lib/hw/memtrack.msm8937.so
 lib/hw/power.qcom.so
 lib/hw/sensors.msm8937.so
+
+# install recovery
+-bin/install-recovery.sh # needs sudo rights to extract from original image
