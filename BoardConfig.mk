@@ -20,7 +20,7 @@ CM_PATH := vendor/cm/config/board
 # Define platform before including any common things
 include $(DEVICE_PATH)/PlatformConfig.mk
 
-# Inherit common ARM64 board fragments
+# Inherit common ARM board fragments
 include $(CM_PATH)/common/arm/architecture.mk
 include $(CM_PATH)/common/arm/binder.mk
 

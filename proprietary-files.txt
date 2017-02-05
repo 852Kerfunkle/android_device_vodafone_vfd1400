@@ -1318,5 +1318,3 @@ lib/hw/memtrack.msm8937.so
 lib/hw/power.qcom.so
 lib/hw/sensors.msm8937.so
 
-# install recovery
--bin/install-recovery.sh # needs sudo rights to extract from original image
